@@ -31,7 +31,7 @@ namespace week3_hw
         {
             foreach (var item in _crtItemList)
             {
-                Console.WriteLine($"{item.CaprtId} {item.Product.ProductName} {item.Quantity}");
+                Console.WriteLine($"{item.CartId} {item.Product.ProductName} {item.Quantity}");
             }
         }
         //GetBalance
